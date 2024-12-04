@@ -78,7 +78,7 @@ ARCHITECTURE Behavioral OF controller IS
                        , STATE_INC
                        , STATE_DEC
                        , STATE_AND
---                       , STATE_XXX
+                       , STATE_SHFR
                        , STATE_JMPZ
                        , STATE_OUTA
                        , STATE_HALT
