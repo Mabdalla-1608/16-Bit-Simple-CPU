@@ -31,7 +31,7 @@ ENTITY alu16 IS
          ; shift_amt : IN  STD_LOGIC_VECTOR(3 DOWNTO 0)
          ; alu_sel   : IN  STD_LOGIC_VECTOR(3 DOWNTO 0)
          ; alu_out   : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
-		 ; of_flag   : OUT STD_LOGIC := '0'
+	 ; of_flag   : OUT STD_LOGIC := '0'
          );
 END alu16;
 
