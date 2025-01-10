@@ -1,6 +1,7 @@
 ----------------------------------------------------------------------------------
 -- Company: Department of Electrical and Computer Engineering, University of Alberta
 -- Engineer: Shyama Gandhi and Bruce Cockburn
+-- Engineering Student: Mohamad Abdallah
 -- Create Date: 10/29/2020 07:18:24 PM
 -- Module Name: cpu - structural(datapath)
 -- Description: CPU LAB 3 - ECE 410 (2023)
