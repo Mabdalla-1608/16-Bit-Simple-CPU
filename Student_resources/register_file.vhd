@@ -1,6 +1,7 @@
 ----------------------------------------------------------------------------------
 -- Company: Department of Electrical and Computer Engineering, University of Alberta
 -- Engineer: Antonio Andara Lara, Shyama Gandhi and Bruce Cockburn
+-- Engineering Student: Mohamad Abdallah
 -- Create Date: 10/29/2020 07:18:24 PM
 -- Module Name: register file
 -- Description: CPU LAB 3 - ECE 410 (2021)
@@ -10,6 +11,7 @@
 -- Revision 2.01 - File Modified by Shyama Gandhi (November 2, 2021)
 -- Revision 3.01 - File Modified by Antonio Andara (October 31, 2023)
 -- Revision 4.01 - File Modified by Antonio Andara (October 28, 2024)
+-- Revision 4.11 - Completed the code by Mohamad Abdallah (December 12, 2024)
 -- Additional Comments:
 --*********************************************************************************
 -- This register_file design provides an 8-location memory array, where each location is 16-bits wide. 
@@ -59,9 +61,6 @@ BEGIN
         IF rising_edge(clock) THEN
             -- Convert rf_address to integer
             address_int := to_integer(unsigned(rf_address));
-
-            -- Initialize offset_address
---            offset_address := -1; -- Invalid by default
 
             -- Determine offset register address in dual access mode
             IF rf_mode = '1' THEN -- Dual access mode
