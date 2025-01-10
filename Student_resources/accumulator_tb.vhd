@@ -49,8 +49,6 @@ BEGIN
         reset     <= '0';
 
         -- Test data write
-
-        -- MISSING 8 BITS (this is 8 it should be 16)
         acc_in    <= X"00AA";
         acc_write <= '1';
         WAIT FOR 20 ns;
