@@ -1,6 +1,7 @@
 ----------------------------------------------------------------------------------
 -- Company: Department of Electrical and Computer Engineering, University of Alberta
 -- Engineer: Antonio Andara Lara, Shyama Gandhi and Bruce Cockburn
+-- Engineering Student: Mohamad Abdallah
 -- Create Date: 10/29/2020 07:18:24 PM
 -- Module Name: cpu - structural(datapath)
 -- Description: CPU LAB 3 - ECE 410 (2021)
@@ -9,9 +10,10 @@
 -- Revision 1.01 - File Modified by Shyama Gandhi (Nov 2, 2021)
 -- Revision 3.01 - File Modified by Antonio Andara (October 31, 2023)
 -- Revision 4.01 - File Modified by Antonio Andara (October 28, 2024)
+-- Revision 4.10 - Completed the template by Mohamad Abdallah (December 2, 2024)
 -- Additional Comments:
 --*********************************************************************************
---THIS IS A 2x1 MUX that selects between two inputs.
+--THIS IS A 2x1 MUX that selects between two 16-Bit inputs.
 -----------------------------
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
